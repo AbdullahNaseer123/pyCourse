@@ -88,12 +88,276 @@
 # else:
 #     print ("The Number is even")
 
-x = int(input("enter how many times to write it:"))
-y = input("enter the text you want to repeat: ")
-for x in range (x):
-    print (y)
+# y = input("enter the text you want to repeat: ")
+# x = int(input("enter how many times you want to repeat it: "))
+# for x in range (x):
+#     print (y)
+#
 
 
+# x = int(input("enter a num 1: "))
+# y = int(input("enter a num 2: "))
+# z = int(input("enter a num 3: "))
+# a = int(input("enter a num 4: "))
+# b = int(input("enter a num 5: "))
+# q = [0, 1, 2, 3, 4]
+#
+# if x == q[0]:
+#     print ('index', x, "=", q[0])
+# else:
+#     print ("index does not match the number")
+#
+# if y == q[1]:
+#     print ('index', y, "=", q[1])
+# else:
+#     print ("index does not match the number")
+#
+# if z == q[2]:
+#     print ('index', z, "=", q[2])
+# else:
+#     print ("index does not match the number")
+#
+# if a == q[3]:
+#     print ('index', a, "=", q[3])
+# else:
+#     print ("index does not match the number")
+#
+# if b == q[4]:
+#     print ('index', b, "=", q[4])
+# else:
+#     print ("index does not match the number")
 
+# x = int(input("enter a num 1: "))
+# y = int(input("enter a num 2: "))
+# z = int(input("enter a num 3: "))
+# a = int(input("enter a num 4: "))
+# b = int(input("enter a num 5: "))
+#
+# N = [x, y, z, a, b,]
+# len(N)
+# print (len(N))
+# q = (len(N) + 1) / 2
+# print (q)
 
+# q = [5, 4, 2, 7]
+#
+# a = int(input("enter a number: "))
+# b = int(input("enter a number: "))
+# c = int(input("enter a number: "))
+# d = int(input("enter a number: "))
+#
+# if q[0] == a:
+#     print("index", q[0], "=", a)
+#
+# else:
+#    print ("index does not match")
+#
+# if q[1] == b:
+#     print("index", q[1], "=", b)
+# else:
+#    print ("index does not match")
+#
+# if q[2] == c:
+#     print("index", q[2], "=", c)
+#
+# else:
+#     print ("index does not match")
+#
+# if q[3] == d:
+#     print("index", q[3], "=", d)
+#
+# else:
+#     print("index does not match")
+#
+# a = []
 
+# x = [90, 100, 78, 89, 67]
+#
+# sorted_list = []
+#
+# if x[4] > x[3]:
+#     print (x[3])
+# elif x[4] > x[2]:
+#     print (x[2])
+# elif x[4] > x[1]:
+#     print (x[1])
+# elif x[4] > x[0]:
+#     print(x[0])
+# else:
+#     print (x[4])
+#
+# sorted_list.append(x[4])
+# print (sorted_list)
+#
+# if x[4] > x[3]:
+#     print(x[4])
+# elif x[2] < x[3]:
+#     print(x[2])
+# elif x[1] > x[3]:
+#     print(x[1])
+# elif x[0] > x[3]:
+#     print(x[0])
+# else:
+#     print(x[3])
+#
+# sorted_list.append(x[2])
+# print(sorted_list)
+#
+# if x[4] > x[3]:
+#     print(x[4])
+# elif x[2] > x[3]:
+#     print(x[2])
+# elif x[1] > x[3]:
+#     print(x[1])
+# elif x[0] > x[3]:
+#     print(x[0])
+# else:
+#     print(x[3])
+#
+# sorted_list.append(x[3])
+# print(sorted_list)
+#
+# if x[4] > x[0]:
+#     print(x[4])
+# elif x[3] > x[0]:
+#     print(x[3])
+# elif x[2] > x[0]:
+#     print(x[2])
+# elif x[1] < x[0]:
+#     print(x[1])
+# else:
+#     print(x[0])
+#
+# sorted_list.append(x[0])
+# print(sorted_list)
+#
+# if x[4] > x[1]:
+#     print(x[4])
+# elif x[3] > x[1]:
+#     print(x[3])
+# elif x[2] > x[1]:
+#     print(x[2])
+# elif x[0] > x[1]:
+#     print(x[0])
+# else:
+#     print(x[1])
+#
+# sorted_list.append(x[1])
+# print(sorted_list)
+#
+# print ("Median is = ", sorted_list[2])
+#
+# y = [90, 100, 79, 89, 67, 53]
+#
+# sorted_list1 = []
+#
+# if y[5] > y[4]:
+#     print (y[5])
+# elif y[5] > y[3]:
+#     print (y[3])
+# elif y[5] > y[2]:
+#     print (y[2])
+# elif y[5] > y[1]:
+#     print(y[1])
+# elif y[5] > y[0]:
+#     print(y[0])
+# else:
+#     print (y[5])
+#
+# sorted_list1.append(y[5])
+# print (sorted_list1)
+#
+# if y[4] > y[3]:
+#     print (y[4])
+# elif y[4] < y[5]:
+#     print(y[5])
+# elif y[4] > y[2]:
+#     print (y[4])
+# elif y[4] > y[1]:
+#     print (y[4])
+# elif y[4] > y[0]:
+#     print(y[4])
+# else:
+#     print (y[4])
+#
+# sorted_list1.append(y[4])
+# print (sorted_list1)
+#
+# if y[4] > y[3]:
+#     print(y[4])
+# elif y[2] < y[3]:
+#     print(y[2])
+# elif y[1] > y[3]:
+#     print(y[1])
+# elif y[0] > y[3]:
+#     print(y[0])
+# else:
+#     print(y[3])
+#
+# sorted_list1.append(y[2])
+# print(sorted_list1)
+#
+# if y[4] > y[3]:
+#     print(y[4])
+# elif y[2] > y[3]:
+#     print(y[2])
+# elif y[1] > y[3]:
+#     print(y[1])
+# elif y[0] > y[3]:
+#     print(y[0])
+# else:
+#     print(y[3])
+#
+# sorted_list1.append(y[3])
+# print(sorted_list1)
+#
+# if y[4] > y[0]:
+#     print(y[4])
+# elif y[3] > y[0]:
+#     print(y[3])
+# elif y[2] > y[0]:
+#     print(y[2])
+# elif y[1] < y[0]:
+#     print(y[1])
+# else:
+#     print(y[0])
+#
+# sorted_list1.append(y[0])
+# print(sorted_list1)
+#
+# if y[4] > y[1]:
+#     print(y[4])
+# elif y[3] > y[1]:
+#     print(y[3])
+# elif y[2] > y[1]:
+#     print(y[2])
+# elif y[0] > y[1]:
+#     print(y[0])
+# else:
+#     print(y[1])
+#
+# sorted_list1.append(y[1])
+# print(sorted_list1)
+#
+# print ("Median is = ", (sorted_list1[2] + sorted_list1[3]) / 2)
+
+# n = int(input("enter a 3 digit number: "))
+# convert_n = str(n)
+# x = convert_n[0]
+# y = convert_n[1]
+# z = convert_n[2]
+#
+# if n % int(x) == 0:
+#     print (n, "is completely divisible by", x)
+# else:
+#     print ("it is not completely divisible by", x)
+#
+# if n % int(y) == 0:
+#     print (n, "is completely divisible by", y)
+# else:
+#     print ("it is not completely divisible by", y)
+#
+# if n % int(z) == 0:
+#     print (n, "is completely divisible by", z)
+# else:
+#     print ("it is not completely divisible by", z)
