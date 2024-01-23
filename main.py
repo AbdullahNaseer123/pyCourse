@@ -361,3 +361,299 @@
 #     print (n, "is completely divisible by", z)
 # else:
 #     print ("it is not completely divisible by", z)
+
+# x = [2, 4, 3, 2, 5, 7, 3]
+#
+# u_list = []
+#
+# if x[0] == x[1]:
+#     print ("it is duplicate at the 1rd index which is also ", x[1])
+#     u_list.append(x[1])
+#     print (u_list)
+# elif x[0] == x[2]:
+#     print ("it is duplicate at the 2rd index which is also ", x[2])
+#     u_list.append(x[2])
+#     print (u_list)
+# elif x[0] == x[3]:
+#     print ("it is duplicate at the 3rd index which is also ", x[3])
+#     u_list.append(x[3])
+#     print (u_list)
+# elif x[0] == x[4]:
+#     print ("it is duplicate at the 4rd index which is also ", x[4])
+#     u_list.append(x[4])
+#     print (u_list)
+# elif x[0] == x[5]:
+#     print ("it is duplicate at the 5rd index which is also ", x[5])
+#     u_list.append(x[5])
+#     print (u_list)
+# elif x[0] == x[6]:
+#     print ("it is duplicate at the 6rd index which is also ", x[6])
+#     u_list.append(x[6])
+#     print (u_list)
+# else:
+#     print("there is no duplicate")
+#     u_list.append(0)
+#
+# if x[1] == x[0]:
+#     print ("it is duplicate at the 0 index which is also ", x[0])
+#     u_list.append(x[0])
+#     print (u_list)
+# elif x[1] == x[2]:
+#     print ("it is duplicate at the 2rd index which is also ", x[2])
+#     u_list.append(x[2])
+#     print (u_list)
+# elif x[1] == x[3]:
+#     print ("it is duplicate at the 3rd index which is also ", x[3])
+#     u_list.append(x[3])
+#     print (u_list)
+# elif x[1] == x[4]:
+#     print ("it is duplicate at the 4rd index which is also ", x[4])
+#     u_list.append(x[4])
+#     print (u_list)
+# elif x[1] == x[5]:
+#     print ("it is duplicate at the 5rd index which is also ", x[5])
+#     u_list.append(x[5])
+#     print (u_list)
+# elif x[1] == x[6]:
+#     print ("it is duplicate at the 6rd index which is also ", x[6])
+#     u_list.append(x[6])
+#     print (u_list)
+# else:
+#     print("there is no duplicate")
+#     u_list.append(x[1])
+#     print(u_list)
+#
+# if x[2] == x[0]:
+#     print ("it is duplicate at the 0rd index which is also ", x[0])
+#     u_list.append(x[0])
+#     print (u_list)
+# elif x[2] == x[1]:
+#     print ("it is duplicate at the 1rd index which is also ", x[1])
+#     u_list.append(x[1])
+#     print (u_list)
+# elif x[2] == x[3]:
+#     print ("it is duplicate at the 3rd index which is also ", x[3])
+#     u_list.append(x[3])
+#     print (u_list)
+# elif x[2] == x[4]:
+#     print ("it is duplicate at the 4rd index which is also ", x[4])
+#     u_list.append(x[4])
+#     print (u_list)
+# elif x[2] == x[5]:
+#     print ("it is duplicate at the 5rd index which is also ", x[5])
+#     u_list.append(x[5])
+#     print (u_list)
+# elif x[2] == x[6]:
+#     print ("it is duplicate at the 6rd index which is also ", x[6])
+#     u_list.append(x[6])
+#     print (u_list)
+# else:
+#     print("there is no duplicate")
+#     u_list.append(x[2])
+#     print(u_list)
+#
+# if x[3] == x[0]:
+#     print ("it is duplicate at the 0rd index which is also ", x[0])
+#     print (u_list)
+# elif x[3] == x[1]:
+#     print ("it is duplicate at the 1rd index which is also ", x[1])
+#     u_list.append(x[1])
+#     print (u_list)
+# elif x[3] == x[2]:
+#     print ("it is duplicate at the 3rd index which is also ", x[2])
+#     u_list.append(x[2])
+#     print (u_list)
+# elif x[3] == x[4]:
+#     print ("it is duplicate at the 4rd index which is also ", x[4])
+#     u_list.append(x[4])
+#     print (u_list)
+# elif x[3] == x[5]:
+#     print ("it is duplicate at the 5rd index which is also ", x[5])
+#     u_list.append(x[5])
+#     print (u_list)
+# elif x[3] == x[6]:
+#     print ("it is duplicate at the 6rd index which is also ", x[6])
+#     u_list.append(x[6])
+#     print (u_list)
+# else:
+#     print("there is no duplicate")
+#     u_list.append(x[3])
+#     print(u_list)
+#
+# if x[4] == x[0]:
+#     print ("it is duplicate at the 0rd index which is also ", x[0])
+#     u_list.append(x[0])
+#     print (u_list)
+# elif x[4] == x[1]:
+#     print ("it is duplicate at the 1rd index which is also ", x[1])
+#     u_list.append(x[1])
+#     print (u_list)
+# elif x[4] == x[2]:
+#     print ("it is duplicate at the 3rd index which is also ", x[2])
+#     u_list.append(x[2])
+#     print (u_list)
+# elif x[4] == x[3]:
+#     print ("it is duplicate at the 4rd index which is also ", x[3])
+#     u_list.append(x[3])
+#     print (u_list)
+# elif x[4] == x[5]:
+#     print ("it is duplicate at the 5rd index which is also ", x[5])
+#     u_list.append(x[5])
+#     print (u_list)
+# elif x[4] == x[6]:
+#     print ("it is duplicate at the 6rd index which is also ", x[6])
+#     u_list.append(x[6])
+#     print (u_list)
+# else:
+#     print("there is no duplicate")
+#     u_list.append(x[4])
+#     print(u_list)
+#
+# if x[5] == x[0]:
+#     print ("it is duplicate at the 0rd index which is also ", x[0])
+#     u_list.append(x[0])
+#     print (u_list)
+# elif x[5] == x[1]:
+#     print ("it is duplicate at the 1rd index which is also ", x[1])
+#     u_list.append(x[1])
+#     print (u_list)
+# elif x[5] == x[2]:
+#     print ("it is duplicate at the 3rd index which is also ", x[2])
+#     u_list.append(x[2])
+#     print (u_list)
+# elif x[5] == x[3]:
+#     print ("it is duplicate at the 4rd index which is also ", x[3])
+#     u_list.append(x[3])
+#     print (u_list)
+# elif x[5] == x[4]:
+#     print ("it is duplicate at the 5rd index which is also ", x[4])
+#     u_list.append(x[4])
+#     print (u_list)
+# elif x[5] == x[6]:
+#     print ("it is duplicate at the 6rd index which is also ", x[6])
+#     u_list.append(x[6])
+#     print (u_list)
+# else:
+#     print("there is no duplicate")
+#     u_list.append(x[5])
+#     print(u_list)
+#
+# if x[6] == x[0]:
+#     print ("it is duplicate at the 0rd index which is also ", x[0])
+#     u_list.append(x[0])
+#     print (u_list)
+# elif x[6] == x[1]:
+#     print ("it is duplicate at the 1rd index which is also ", x[1])
+#     u_list.append(x[1])
+#     print (u_list)
+# elif x[6] == x[2]:
+#     print ("it is duplicate at the 3rd index which is also ", x[2])
+#     u_list.append(x[6])
+#     print (u_list)
+# elif x[6] == x[3]:
+#     print ("it is duplicate at the 4rd index which is also ", x[3])
+#     u_list.append(x[3])
+#     print (u_list)
+# elif x[6] == x[4]:
+#     print ("it is duplicate at the 5rd index which is also ", x[4])
+#     u_list.append(x[4])
+#     print (u_list)
+# elif x[6] == x[5]:
+#     print ("it is duplicate at the 6rd index which is also ", x[5])
+#     u_list.append(x[5])
+#     print (u_list)
+# else:
+#     print("there is no duplicate")
+#     u_list.append(x[6])
+#     print(u_list)
+
+# list1 = [1,2,3,4,5,6,7,8,9]
+# l2 = input("enter number: ")
+# l3 = []
+# sum = 0
+# for i in l2:
+#     sum = sum + int(i)
+#     l3.append(sum)
+#     print(l3)
+#
+# if l3[-1] ==
+
+#
+# list1 = []
+# con_list1 = str(list1)
+# GN = input("enter a number: ")
+# # for index in range(len(list1_con)):
+# #         if GN == list1_con[index]:
+# #             print (f'{GN} is in the list at {index} index')
+#
+# for index in con_list1:
+#     sum = index + con_list1
+#     print(sum)
+
+#1 multiplication table of given number
+
+x = int(input("enter a number: "))
+c = 0
+for i in range(1,11):
+    c = c + 1
+    print(f"{x} x {c} = {x * i}")
+
+#2 10 friends name in list
+
+
+friends_list = []
+for i in range(1,11):
+    x = input("Enter a friends name: ")
+    if x not in friends_list:
+        friends_list.append(x)
+
+print(friends_list)
+
+
+#3 even and odd numbers less than 100
+
+even_num = 0
+odd_num = 0
+print("these are the even number less than 100")
+for i in range(1,101):
+        if i%2 == 0:
+            even_num = even_num + 1
+            print (i, "is a even number")
+
+print("these are the odd number less than 100")
+for j in range(1,101):
+    if j%2 !=  0:
+        odd_num = odd_num + 1
+        print(j, "is a odd number")
+
+#4 string list to integer list
+
+listt = []
+for i in range(1,6):
+    x = input("Enter a friends name: ")
+    listt.append(x)
+print(listt)
+
+list_new = []
+for c in listt:
+    integer = int(c)
+    list_new.append(integer)
+print(list_new)
+
+#5 sum of a list
+
+x = [1,2,3,4,5,6]
+result = 0
+for i in x:
+    result = result + i
+
+print(result)
+
+#6 adding 2 integer list
+
+result = []
+x = [1,2,3,4,5]
+y = [1,2,3,4,5]
+for i in range(len(x)):
+    result.append(x[i] + y[i])
+print(result)
