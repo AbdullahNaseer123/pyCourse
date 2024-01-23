@@ -592,68 +592,63 @@
 
 #1 multiplication table of given number
 
-x = int(input("enter a number: "))
-c = 0
-for i in range(1,11):
-    c = c + 1
-    print(f"{x} x {c} = {x * i}")
+# x = int(input("enter a number: "))
+# c = 0
+# for i in range(1,11):
+#     c = c + 1
+#     print(f"{x} x {c} = {x * i}")
 
 #2 10 friends name in list
 
 
-friends_list = []
-for i in range(1,11):
-    x = input("Enter a friends name: ")
-    if x not in friends_list:
-        friends_list.append(x)
-
-print(friends_list)
+# friends_list = []
+# for i in range(1,11):
+#     x = input("Enter a friends name: ")
+#     if x not in friends_list:
+#         friends_list.append(x)
+# print(friends_list)
 
 
 #3 even and odd numbers less than 100
 
-even_num = 0
-odd_num = 0
-print("these are the even number less than 100")
-for i in range(1,101):
-        if i%2 == 0:
-            even_num = even_num + 1
-            print (i, "is a even number")
-
-print("these are the odd number less than 100")
-for j in range(1,101):
-    if j%2 !=  0:
-        odd_num = odd_num + 1
-        print(j, "is a odd number")
+# even_num = 0
+# odd_num = 0
+# print("these are the even number less than 100", end="      ")
+# print("these are the odd number less than 100")
+# for i in range(0,101):
+#         if i%2 == 0:
+#             print (i, "is a even number", end= "                            ")
+#         else:
+#             print(i, "is a odd number")
 
 #4 string list to integer list
 
-listt = []
-for i in range(1,6):
-    x = input("Enter a friends name: ")
-    listt.append(x)
-print(listt)
-
-list_new = []
-for c in listt:
-    integer = int(c)
-    list_new.append(integer)
-print(list_new)
+# listt = []
+# for i in range(1,6):
+#     x = input("Enter a friends name: ")
+#     listt.append(x)
+# print(listt)
+#
+# list_new = []
+# for c in listt:
+#     integer = int(c)
+#     list_new.append(integer)
+# print(list_new)
 
 #5 sum of a list
 
-x = [1,2,3,4,5,6]
-result = 0
-for i in x:
-    result = result + i
-
-print(result)
+# x = [1,2,3,4,5,6]
+# result = 0
+# for i in x:
+#     result = result + i
+#
+# print(result)
 
 #6 adding 2 integer list
 
-result = []
-x = [1,2,3,4,5]
-y = [1,2,3,4,5]
-for i in range(len(x)):
-    result.append(x[i] + y[i])
-print(result)
+# result = []
+# x = [1,2,3,4,5]
+# y = [1,2,3,4,5]
+# for i in range(len(x)):
+#     result.append(x[i] + y[i])
+# print(result)
