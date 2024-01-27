@@ -652,3 +652,95 @@
 # for i in range(len(x)):
 #     result.append(x[i] + y[i])
 # print(result)
+
+#
+
+# 1 printing 5 in pyra
+
+# x = '5'
+# for i in range(5,0,-1):
+#     for j in x:
+#         print(i * j)
+
+# 2 1 pyramid
+
+# for i in range(1,6):
+#     for j in range(i):
+#         print(i-j, end=" ")
+#     print(" ")
+#
+
+# 3 13579 pyramid
+
+# counter = 0
+# for i in range(1,10,2):
+#     counter = counter + 1
+#     for j in range(counter):
+#         print(i, end="  ")
+#     print("")
+
+# 4 pyramid of 54321
+
+# for i in range(5,0,-1):
+#     for j in range(i):
+#         print(i, end="")
+#     print("")
+
+#5 * pyramid
+
+# counter = 1
+# rows = 5
+# for row in range(rows,0,-1):
+#     for space in range(rows - row, 0, -1):
+#         print(" ", end=" ")
+#
+#     for star in range(1, row*2):
+#         print(""
+#               "*", end=" ")
+#     print()
+#
+# for row in range(1, rows + 1):
+#     for space in range(rows - row, 0, -1):
+#         print(" ", end=" ")
+#
+#     for star in range(1, row*2):
+#         print(""
+#               "*", end=" ")
+#     print()
+
+# 6
+
+# counter = 0
+#
+# for i in range(1,6):
+#     counter = counter + 1
+#     for j in range(counter):
+#         print(counter, end=" ")
+#     print()
+
+# side diamond
+
+c = 0
+for i in range(1,6):
+    for j in range(1, i+1):
+        print(j, end=" ")
+    print()
+
+for i in range(6,0,-1):
+    for j in range(1, i-1):
+        print(j, end=" ")
+    print()
+
+# for j in range(5,0,-1):
+#     c = c + 1
+#     print(c, " *" * j, end=" ")
+#     print(" ")
+
+# 7  123456789 pyramid
+
+# c = 1
+# for i in range(2,6):
+#     print(c , end=" ")
+#     c = c + i
+#     print()
+
