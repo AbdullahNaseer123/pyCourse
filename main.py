@@ -917,10 +917,10 @@
 # # remove whitespaces
 #
 # def FA(a):
-#     i = out.strip("")
+#     i = okay.strip("")
 #     return i
 #
-# ok = FA(out)
+# ok = FA(okay)
 # print("6", ok)
 #
 # # split string to list
