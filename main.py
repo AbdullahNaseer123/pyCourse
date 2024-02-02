@@ -720,16 +720,16 @@
 
 # side diamond
 
-c = 0
-for i in range(1,6):
-    for j in range(1, i+1):
-        print(j, end=" ")
-    print()
+# c = 0
+# for i in range(1,6):
+#     for j in range(1, i+1):
+#         print(j, end=" ")
+#     print()
 
-for i in range(6,0,-1):
-    for j in range(1, i-1):
-        print(j, end=" ")
-    print()
+# for i in range(6,0,-1):
+#     for j in range(1, i-1):
+#         print(j, end=" ")
+#     print()
 
 # for j in range(5,0,-1):
 #     c = c + 1
@@ -744,3 +744,270 @@ for i in range(6,0,-1):
 #     c = c + i
 #     print()
 
+
+#1 reverse a given string
+
+# def rs(n1):
+#     return n1[::-1]
+#
+# name = input("enter name: ")
+#
+# output = rs(name)
+# print(output)
+
+#2 check palindrome
+
+# def palindrome(string):
+#     if string[::-1] == string:
+#         return string[::-1], "it is a palindrome"
+#     else:
+#         return string[::-1], "it is not a palindrome"
+#
+# n = input(": ")
+#
+# output = palindrome(n)
+# print(output)
+
+#3 check if number is prime
+
+# def prime(n1):
+#     if n1%2 == 1:
+#         return n1, " number is  prime"
+#     else:
+#         return n1, " number is not prime"
+#
+# n = int(input(': '))
+#
+# output = prime(n)
+# print(output)
+
+#4 calculator
+
+# def calc(n1,n2,op):
+#     if op == "*":
+#         return n1 * n2
+#     elif op == '+':
+#         return n1 + n2
+#     elif op == '-':
+#         return n1 - n2
+#     elif op == '/':
+#         return n1 / n2
+#     else:
+#         return "give the right operator"
+#
+# no1 = int(input("enter 1st number: "))
+# no2 = int(input("enter 2nd number: "))
+# operator = input("what calculation do you wanna perform: ")
+#
+# out = calc(no1,no2,operator)
+# print(out)
+
+
+#5 factorial of a given number
+
+# def fac(n1):
+#     if n1 == 1 or n1 == 0:
+#         return 1
+#     else:
+#         return n1 * fac(n1 - 1)
+#
+# no1 = int(input("enter the number you want factorial of: "))
+#
+# out = fac(no1)
+#
+# print(out)
+
+#6 vowel checker
+
+# def vowel(string):
+#     counter = 0
+#     for i in string:
+#         for j in 'aeiou':
+#             if i == j:
+#                 counter = counter + 1
+#                 sum = counter
+#
+#     return f"there are {sum} vowels in this string"
+#
+#
+#
+# word = input(": ")
+# out = vowel(word)
+# print(out)
+
+#7 list sum and average
+
+# l1 =[1,2,3,4,5]
+
+# def avg(sa):
+#     result = 0
+#     for i in l1:
+#         result = result + i
+#     return "the avg of list is ", result / len(l1)
+#
+#
+# out = avg(l1)
+# print(out)
+
+#8 min and max value in a given list
+
+# l1 = [20,10,30,5,9]
+# def mm(l1):
+#     max = 0
+#     for i in range(1, len(l1)+1):
+#         max = (max < i) + i
+#     print("biggest value: ", max)
+#
+#     min = max
+#     for i in range(1, len(l1)+1):
+#         min = (min > i) + i
+#     print("smallest value: ", min)
+#
+# out = mm(l1)
+
+#                     1
+#
+# word_list = ["apple","banana","cherry","date"]
+#
+#  # make the list a string
+#
+# def sl(word_list):
+#     x = " ".join(word_list)
+#     return x
+#
+# out = sl(word_list)
+# print("1", out)
+#
+# # first letter uppercase
+#
+# def F(word_list):
+#     x = word_list.title()
+#     return x
+#
+# shoot = F(out)
+# print('2', shoot)
+#
+# # first occurance of the letter 'a'
+#
+# def fa(a):
+#     g = out.index(a)
+#     return g
+#
+# leave = fa(out)
+# print("3", "a is at index ", leave)
+#
+# # count of a
+#
+# def coun(a):
+#     z = out.count('a')
+#     return z
+#
+# boom = coun(out)
+# print('4',"the letter 'a' is  repeated", boom, " times")
+#
+# # replace a with x
+#
+# def fA(a):
+#     u = out.replace("a", "x")
+#     return u
+#
+# okay = fA(out)
+# print("5", okay)
+#
+# # remove whitespaces
+#
+# def FA(a):
+#     i = out.strip("")
+#     return i
+#
+# ok = FA(out)
+# print("6", ok)
+#
+# # split string to list
+#
+# def HA(a):
+#     l = okay.split()
+#     return l
+#
+# o = HA(okay)
+# print("7", o)
+
+# username validation
+
+
+# def UV(inp):
+#     z = x[0]
+#     y = z.isnumeric()
+#     if y == False and len(x) >= 8:
+#         print("it is valid")
+#     else:
+#         print("it is not valid")
+#
+# x = input("enter your username: ")
+# out = UV(x)
+
+# each letter frequency
+
+# def freq(x):
+#     for i in x:
+#         j = x.count(i)
+#         print(str(i) + ": " + str(j), end=", ")
+#     print()
+#
+# y = input("enter: ")
+# out = freq(y)
+
+# domain extraction
+
+# def de(ed):
+#     y = x.split('@', 2)
+#     return "the extracted domain is", y
+#
+# x = input("enter: ")
+# out = de(x)
+# print(out)
+
+# pass strength check
+
+# def PS(x):
+#     uc = 0
+#     lc = 0
+#     sc = 0
+#     dg = 0
+#
+#     length = len(x)
+#
+#     if (length < 6):
+#         print("Password must be at least 6 characters long!")
+#     else:
+#         for i in range(0, length):
+#             if (x[i].isupper()):
+#                 uc += 1
+#             elif (x[i].islower()):
+#                 lc += 1
+#             elif (x[i].isdigit()):
+#                 dg += 1
+#             else:
+#                 sc += 1
+#
+#     if uc != 0 and lc != 0 and dg != 0 and sc != 0:
+#         if (length >= 9):
+#             print("The strength of password is strong.")
+#         elif len(x) >=7:
+#             print("The strength of password is medium")
+#         else:
+#             print("The strength of password is weak")
+#
+#     else:
+#         if uc == 0:
+#             print("Password must contain at least one uppercase character!")
+#         if lc == 0:
+#             print("Password must contain at least one lowercase character!")
+#         if sc == 0:
+#             print("Password must contain at least one special character!")
+#         if dg == 0:
+#             print("Password must contain at least one digit!")
+#
+#
+# x = input("Please enter password: ")
+# PS(x)
