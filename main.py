@@ -960,12 +960,12 @@
 # domain extraction
 
 # def de(ed):
-#     y = x.split('@', 2)
-#     return "the extracted domain is", y
-#
+#     y = x.index('@')
+#     domain = x[y + 1: ]
+#     print("the extracted domain is", domain)
+# 
 # x = input("enter: ")
 # out = de(x)
-# print(out)
 
 # pass strength check
 
